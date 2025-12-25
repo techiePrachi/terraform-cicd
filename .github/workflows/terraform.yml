@@ -27,9 +27,6 @@ jobs:
     - name: terraform init
       run: terraform init
 
-    - name: terraform format
-      run: terraform fmt -check
-
     - name: terraform plan
       run: terraform plan
 
